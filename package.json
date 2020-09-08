@@ -1,0 +1,6 @@
+{
+  "name": "renovate-berry",
+  "dependencies": {
+    "chalk": "2.4.1"
+  }
+}
