@@ -11,7 +11,7 @@ var __non_webpack_module__ = module;
 
 function $$SETUP_STATE(hydrateRuntimeState, basePath) {
   var path = require('path');
-  var dataLocation = path.resolve(__dirname, ".pnp.data.json");
+  var dataLocation = path.resolve(__dirname, "pnp-data.json");
   return hydrateRuntimeState(require(dataLocation), {basePath: basePath || path.dirname(dataLocation)});
   }
 
